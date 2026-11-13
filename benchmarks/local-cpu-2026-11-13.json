@@ -1,0 +1,79 @@
+{
+  "description": "Measured local training results; separate validation is a tiny 10% held-out segment (not a general quality score).",
+  "command": "python -m quickai.train --minutes 20 --steps 300 --out-dir runs",
+  "environment": {
+    "python": "3.13.5",
+    "pytorch": "2.10.0+cpu",
+    "device": "cpu"
+  },
+  "summary": {
+    "total_seconds": 9.319,
+    "budget_minutes": 20.0,
+    "models": [
+      {
+        "name": "fields",
+        "steps": 300,
+        "parameters": 107686,
+        "val_loss": 2.590334951877594
+      },
+      {
+        "name": "stories",
+        "steps": 300,
+        "parameters": 107557,
+        "val_loss": 2.288767993450165
+      }
+    ]
+  },
+  "models": {
+    "fields": {
+      "dataset_sha256": "0e999116f94c67f2ac057e42794332b175ea509256144f2b4bb7772e2f318081",
+      "characters": 1764,
+      "vocab_size": 38,
+      "parameters": 107686,
+      "seed": 42,
+      "steps_completed": 300,
+      "training_seconds": 4.312,
+      "initial_loss": {
+        "train": 3.807712197303772,
+        "val": 3.77924907207489
+      },
+      "final_loss": {
+        "train": 2.034671813249588,
+        "val": 2.590334951877594
+      },
+      "config": {
+        "vocab_size": 38,
+        "block_size": 48,
+        "n_embd": 64,
+        "n_head": 4,
+        "n_layer": 2,
+        "dropout": 0.1
+      }
+    },
+    "stories": {
+      "dataset_sha256": "77a0968e32231fbf4824a460638b80a404102504039f67dca4a7ec39c4b4ad0f",
+      "characters": 1546,
+      "vocab_size": 37,
+      "parameters": 107557,
+      "seed": 43,
+      "steps_completed": 300,
+      "training_seconds": 4.282,
+      "initial_loss": {
+        "train": 3.8192332983016968,
+        "val": 3.7767961621284485
+      },
+      "final_loss": {
+        "train": 1.925067514181137,
+        "val": 2.288767993450165
+      },
+      "config": {
+        "vocab_size": 37,
+        "block_size": 48,
+        "n_embd": 64,
+        "n_head": 4,
+        "n_layer": 2,
+        "dropout": 0.1
+      }
+    }
+  }
+}
