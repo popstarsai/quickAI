@@ -1,0 +1,20 @@
+A field is a value assigned to each location in space and time.
+A scalar field has magnitude at each point; a vector field also has direction.
+Electric charge is a source of electric fields, and moving charge creates magnetic effects.
+An antenna changes electrical current in time and sends electromagnetic waves outward.
+A small sensor measures a signal; calibration separates a real change from instrument noise.
+The experiment begins with a hypothesis, then predicts a measurement, then collects observations.
+A simulation is a model with assumptions, not proof that nature obeys every approximation.
+A beam passes through glass and bends when its propagation speed changes across the interface.
+A mirror redirects a ray; a lens can bring rays into focus or spread them into a wide cone.
+A wave carries phase and amplitude. Waves can interfere, reinforce, and cancel.
+Diffraction makes narrow apertures spread light into patterns of bright and dark regions.
+A circuit needs a closed path for sustained current; voltage is a difference in potential.
+Resistance dissipates electrical energy as heat when current flows through a material.
+A capacitor stores energy in an electric field; an inductor stores energy in a magnetic field.
+In a detector, a measured zero differs from a missing measurement. Record both distinctly.
+The data table stores a timestamp, a unit, a confidence interval, and the sensor identifier.
+A clear plot displays the axes and units so the result can be checked independently.
+At the horizon of a distant world, a telescope resolves a dim point of reflected light.
+A star shines because nuclear reactions release energy in its hot, dense interior.
+Gravity bends trajectories, but a diagram never replaces a derivation from physical laws.
